@@ -1,0 +1,25 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+}
+
+.board{
+width:900px;
+height: 620px;
+background-image: linear-gradient(rgba(222, 14, 222, 0.712) , rgb(19, 19, 132));
+
+}
+
+.carta1{
+width: 200px;;
+height: 280.8px;
+position: absolute;
+top: 20px;
+left: 20px;
+background-image: url(/imagens/fundo\ carta.png);
+
+}
